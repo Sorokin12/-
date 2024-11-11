@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #a00;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(45deg, #a00 25%, #900 25%, #900 50%, #a00 50%, #a00 75%, #900 75%, #900 100%);
+    background-size: 40px 40px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.header-text {
+    text-align: left;
+}
+
+.header-top h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.header-top h2 {
+    font-size: 16px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #800;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.search input {
+    padding: 5px;
+}
+
+.search button {
+    padding: 5px;
+    background-color: #800;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.breadcrumbs {
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.breadcrumbs a {
+    color: #a00;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    margin: 20px;
+}
+
+.left-content {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.suspect {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.suspect img {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+
+
+.suspect p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.right-sidebar {
+    flex: 1;
+}
+
+.social-media {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social-media img {
+    width: 100px;
+    height: auto;
+}
+
+.sidebar-menu {
+    background-color: #a00;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.sidebar-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-menu ul li {
+    margin: 10px 0;
+}
+
+.sidebar-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.social-media {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.vk-logo {
+    width: 30px; /* Ширина логотипа */
+    height: 30px; /* Высота логотипа */
+    margin-right: 10px; /* Отступ справа от текста */
+    border-radius: 3px; /* Закругление краев */
+}
